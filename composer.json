@@ -1,0 +1,19 @@
+{
+  "name": "shakil/poll",
+  "description": "This is a process control poll",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "shakil"
+    }
+  ],
+  "require": {
+    "ext-pcntl": "*",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  }
+}
